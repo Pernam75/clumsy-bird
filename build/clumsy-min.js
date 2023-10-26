@@ -326,7 +326,7 @@ var BackgroundLayer = me.ImageLayer.extend({
               (this.text = me.device.touch
                 ? "Tap to start"
                 : 'PRESS SPACE OR CLICK LEFT MOUSE BUTTON TO START \n											PRESS "M" TO MUTE SOUND'),
-              (this.font = new me.Font("gamefont", 20, "#000"));
+              (this.font = new me.Font("gamefont", 20, "#ffffff"));
           },
           draw: function (a) {
             var b = this.font.measureText(a, this.text),
